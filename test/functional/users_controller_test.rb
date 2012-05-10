@@ -18,7 +18,7 @@ class UsersControllerTest < ActionController::TestCase
 
   test "should create user" do
     assert_difference('User.count') do
-      post :create, :user => { :birthday => @user.birthday, :city => @user.city, :college => @user.college, :company => @user.company, :email => @user.email, :fav_book => @user.fav_book, :fav_game => @user.fav_game, :fav_movie => @user.fav_movie, :fav_music => @user.fav_music, :fav_sport => @user.fav_sport, :fav_tv => @user.fav_tv, :high_school => @user.high_school, :last_name => @user.last_name, :name => @user.name, :password => @user.password, :picture => @user.picture, :sex => @user.sex, :state => @user.state, :wall_id => @user.wall_id, :website => @user.website }
+      post :create, :user => { :birthday => @user.birthday, :city => @user.city, :college => @user.college, :company => @user.company, :fav_book => @user.fav_book, :fav_game => @user.fav_game, :fav_movie => @user.fav_movie, :fav_music => @user.fav_music, :fav_sport => @user.fav_sport, :fav_tv => @user.fav_tv, :high_school => @user.high_school, :last_name => @user.last_name, :name => @user.name, :picture => @user.picture, :sex => @user.sex, :state => @user.state, :wall_id => @user.wall_id, :website => @user.website }
     end
 
     assert_redirected_to user_path(assigns(:user))
@@ -35,7 +35,7 @@ class UsersControllerTest < ActionController::TestCase
   end
 
   test "should update user" do
-    put :update, :id => @user, :user => { :birthday => @user.birthday, :city => @user.city, :college => @user.college, :company => @user.company, :email => @user.email, :fav_book => @user.fav_book, :fav_game => @user.fav_game, :fav_movie => @user.fav_movie, :fav_music => @user.fav_music, :fav_sport => @user.fav_sport, :fav_tv => @user.fav_tv, :high_school => @user.high_school, :last_name => @user.last_name, :name => @user.name, :password => @user.password, :picture => @user.picture, :sex => @user.sex, :state => @user.state, :wall_id => @user.wall_id, :website => @user.website }
+    put :update, :id => @user, :user => { :birthday => @user.birthday, :city => @user.city, :college => @user.college, :company => @user.company, :fav_book => @user.fav_book, :fav_game => @user.fav_game, :fav_movie => @user.fav_movie, :fav_music => @user.fav_music, :fav_sport => @user.fav_sport, :fav_tv => @user.fav_tv, :high_school => @user.high_school, :last_name => @user.last_name, :name => @user.name, :picture => @user.picture, :sex => @user.sex, :state => @user.state, :wall_id => @user.wall_id, :website => @user.website }
     assert_redirected_to user_path(assigns(:user))
   end
 

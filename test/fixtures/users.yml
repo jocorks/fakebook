@@ -3,10 +3,8 @@
 one:
   name: MyString
   last_name: MyString
-  email: MyString
-  password: MyString
   sex: MyString
-  birthday: 2012-05-06
+  birthday: 2012-05-10
   high_school: MyString
   college: MyString
   company: MyString
@@ -25,10 +23,8 @@ one:
 two:
   name: MyString
   last_name: MyString
-  email: MyString
-  password: MyString
   sex: MyString
-  birthday: 2012-05-06
+  birthday: 2012-05-10
   high_school: MyString
   college: MyString
   company: MyString
